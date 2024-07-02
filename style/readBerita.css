@@ -1,0 +1,39 @@
+body{
+    background-color: #EEEEEE;
+}
+
+#content{
+    height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #EEEEEE;
+}
+
+.contentBerita{
+}
+
+.contentBerita h1{
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-family: Verdana, sans-serif;
+}
+
+.contentBeritaMedia{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contentBerita img{
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.contentBerita p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+

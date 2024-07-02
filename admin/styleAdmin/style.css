@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      margin: 0;
+      margin-top: 0;
+      font-family: Verdana, sans-serif;
+      background-color: #EEEEEE;
+    }
+    
+    ul {
+      padding-top: 8px;
+      list-style: none !important;
+    }
+    
+    a {
+      text-decoration: none !important;
+      color: #fff;
+    }
+    
+    nav {
+      /* position: relative; */
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      align-items: center;
+      letter-spacing: 1.5px;
+      background-color: #334257;
+      padding: 15px;
+      height: 65px;
+    }
+
+    nav .logoBk img{
+      padding-top: 20px;
+      width: 140px;
+      height: 110px;
+    }
+    
+    .logo {
+      font-weight: bold;
+      color: #fff;
+      font-size: 23px;
+    }
+    
+    .logo:hover {
+      color: red !important;
+      transition: all ease 0.2s;
+    }
+  
+    .logo img{
+      width: 150px;
+      height: 50px;
+    }
+    
+    .menu {
+      display: flex;
+    }
+    
+    .menu li a {
+      color: #fff;
+      padding: 10px;
+    }
+    
+    .menu li a:hover {
+      background-color: #fff;
+      color: #548CA8 !important;
+      border-radius: 3px;
+      transition: all ease 0.4s;
+    }
+    
+    .login {
+      color: #fff;
+    }
+    
+    .login:hover {
+      color: #548CA8;
+      transition: all ease 0.4s;
+    }
+
+    #indexMain{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .tambahData a button{
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+        background-color: #548CA8;
+        border-radius: 10px;
+        border: none;
+        color: #EEEEEE;
+    }
+
+    #example {
+        font-family: Verdana, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #example td, #example th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 180px;
+        height: 50px;
+        text-overflow: ellipsis; 
+      }
+      
+      #example tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #example tr:hover {background-color: #ddd;}
+      
+      #example th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #548CA8;
+        color: white;
+      }
+
+      #example tr td a{
+        color: #334257;
+      }
+
+      #loginPage{
+        height: 100vh;
+        padding-left: 350px;
+        padding-right: 350px;
+        background-color: #EEEEEE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mediaLogin img{
+        width: 420px;
+        height: 310px;
+    }
+
+    .mediaLogin h1{
+        text-transform: uppercase;
+        /* font-style: normal; */
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+
+    .loginText button{
+        margin-top: 0px;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        text-transform: uppercase;
+        background-color: #334257;
+        color: #EEEEEE;
+        width: 200px;
+    }
+
+form {
+    border: 3px solid #f1f1f1;
+    margin-top: 20px;
+    background-color: #548CA8;
+    border: none;
+    border-radius: 10px;
+  }
+
+  form .titleForm{
+    color: #EEEEEE;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.modalInput p{
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  .modalCon{
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+
+  .modalCon form .modalInput input{
+    width: 610px;
+    border-radius: 10px;
+  }
+  .modalCon form img{
+    width: 170px;
+    height: 170px;
+  }
+
+  .buttonLogin button{
+    width: 610px;
+    background-color: #548CA8;
+    color: #EEEEEE;
+    border-radius: 10px;
+  }
+
+  .buttonRegister input{
+    width: 610px;
+    height: 40px;
+    border: none;
+    background-color: #334257;
+    color: #EEEEEE;
+    border-radius: 10px;
+  }
+
+  .buttonRegister input:hover{
+    width: 610px;
+    height: 40px;
+    border: none;
+    background-color: #ccc;
+    color: #548CA8;
+    border-radius: 10px;
+  }
+
+  .buttonBatal button{
+    width: 610px;
+    border-radius: 10px;
+  }
